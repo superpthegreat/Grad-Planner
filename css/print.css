@@ -1,0 +1,23 @@
+@media print {
+
+    header,
+    .gradflow-header,
+    footer,
+    .page-footer,
+    nav,
+    #mobile-footer {
+        display: none;
+    }
+
+    @page {
+        margin: 0mm;
+    }
+
+    #canvas-region {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
